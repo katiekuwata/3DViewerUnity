@@ -19,8 +19,8 @@ function Update () {
 */
 function Update ()
 {
-     //#if UNITY_IPHONE  ||  UNITY_ANDROID
-     #if UNITY_ANDROID
+     #if UNITY_IPHONE  ||  UNITY_ANDROID
+     //#if UNITY_ANDROID
     
      var gyro:Quaternion = Input.gyro.attitude;
      gyro.x *= -1.0;
